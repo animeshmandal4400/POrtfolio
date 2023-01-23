@@ -4,16 +4,16 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        bg: "#191a19",
+        "bg-dark": "#191A19",
         "bg-variant": "#1E5128",
         "bg-variant-dark": "#262726",
         primary: "#4E9F3D",
         "primary-variant": "#D8E9A8",
         white: "#fff",
-        light: rgba(255, 255, 255, 0.6),
       },
       fontFamily: {
         playfair: ["playfair Display", "serif"],
+        firaCode: ["Fira Code", "monospace"],
       },
       content: {},
     },

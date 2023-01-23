@@ -1,14 +1,18 @@
-import { useState } from 'react'
-import { Home } from './components/Home'
+import Home  from './components/Home'
+import Navbar from './components/Navbar'
+import About from './components/About'
+
 
 function App() {
 
   return (
+    
     <div className="App">
-      <div>
-        <Home/>
-        </div>
+    
+    <Navbar/> <Home/> <About/>
+        
     </div>
+   
   )
 }
 
